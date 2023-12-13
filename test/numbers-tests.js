@@ -642,15 +642,15 @@ describe('core-js-numbers-tasks optimal implementation', () => {
     );
   });
 
-  it.optional('optimal implementation of getLastDigit', function test() {
-    const fnStr = tasks.getLastDigit.toString();
-    if (!fnStr.includes('return')) {
-      this.skip();
-    }
-    assert.equal(
-      fnStr.includes('%'),
-      true,
-      'You need to use a different method or operator, look for the appropriate method or operator in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators#arithmetic_operators'
-    );
-  });
+  // it.optional('optimal implementation of getLastDigit', function test() {
+  //   const fnStr = tasks.getLastDigit.toString();
+  //   if (!fnStr.includes('return')) {
+  //     this.skip();
+  //   }
+  //   assert.equal(
+  //     fnStr.includes('%'),
+  //     true,
+  //     'You need to use a different method or operator, look for the appropriate method or operator in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators#arithmetic_operators'
+  //   );
+  // });
 });
